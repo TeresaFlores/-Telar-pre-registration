@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Routes, RouterModule} from '@angular/router';
 
 @Component({
   selector: 'app-restore-password',
@@ -11,5 +12,6 @@ export class RestorePasswordComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
 
 }
