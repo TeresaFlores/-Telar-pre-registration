@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { PasswordSuccessfulComponent } from './password-successful/password-successful.component';
 import { PasswordRequestComponent } from './password-request/password-request.component';
 import { RestorePasswordComponent } from './restore-password/restore-password.component';
+import { MessageComponent } from './message/message.component';
 
 
 
@@ -11,7 +12,8 @@ import { RestorePasswordComponent } from './restore-password/restore-password.co
   declarations: [
     PasswordSuccessfulComponent,
     PasswordRequestComponent,
-    RestorePasswordComponent
+    RestorePasswordComponent,
+    MessageComponent
   ],
   imports: [
     CommonModule

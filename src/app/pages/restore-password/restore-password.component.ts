@@ -8,10 +8,13 @@ import { Routes, RouterModule} from '@angular/router';
 })
 export class RestorePasswordComponent implements OnInit {
 
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+
 
 
 }
